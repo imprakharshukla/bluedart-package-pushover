@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  bluedart-pushover:
+    image: .
+    env_file:
+      - .env
