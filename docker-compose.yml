@@ -2,6 +2,8 @@ version: '3.8'
 
 services:
   bluedart-pushover:
-    image: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     env_file:
       - .env
